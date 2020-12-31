@@ -6,3 +6,4 @@ if(name == 'depaneeta tisha' || myName == "tisha")
 else
 {
     alert("Your are not a chagol.");
+}
