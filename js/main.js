@@ -1,5 +1,5 @@
 var myName = prompt("What is your name:");
-if(myName == "depaneeta tisha" || myName=="Depaneeta" || myName == "tisha"|| myName=="depaneeta" || myName=="Tisha")
+if(myName == "dipaneeta tisha" || myName=="Dipaneeta" || myName == "tisha"|| myName=="dipaneeta" || myName=="Tisha")
 {
     alert("You are a chagol");
 }
