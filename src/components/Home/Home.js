@@ -1,8 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import homeLogo from '../../Assets/home-main.svg';
+import ContactForm from '../ContactForm/ContactForm';
 import Particle from '../Particle';
+import Project from '../Project/Project';
 import Home2 from './Home2';
+import Svg from './Svg';
 import Type from './Type';
 
 function Home() {
@@ -31,11 +34,13 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
+              {/* <img src={homeLogo} alt="home pic" className="img-fluid" /> */}
+              <Svg></Svg>
             </Col>
           </Row>
         </Container>
       </Container>
+      <Project></Project>
       <Home2 />
     </section>
   );

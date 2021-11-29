@@ -18,7 +18,7 @@ function Resume() {
   }
 
   const resumeLink =
-    'https://raw.githubusercontent.com/saifbashar/portfolio/main/src/Assets/resume-saifbashar.pdf';
+    'https://raw.githubusercontent.com/saifbashar/portfolio/master/src/Assets/resume-saifbashar.pdf';
   // const resumeLink =
   //   'https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Resume_Soumyajit_Behera.pdf';
   return (

@@ -1,14 +1,15 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+import React from 'react';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import ProjectCard from './ProjectCards';
+import Particle from '../Particle';
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from '../../Assets/Projects/leaf.png';
+import emotion from '../../Assets/Projects/emotion.jpeg';
+import editor from '../../Assets/Projects/codeEditor.png';
+import chatify from '../../Assets/Projects/chatify.png';
+import suicide from '../../Assets/Projects/suicide.png';
+import bitsOfCode from '../../Assets/Projects/blog.png';
+import { BiLinkExternal } from 'react-icons/bi';
 
 function Projects() {
   return (
@@ -18,69 +19,161 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: 'white' }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
-            />
+            <Card className="project-card-view">
+              <Card.Img variant="top" src="" alt="card-img" />
+              <Card.Body>
+                <Card.Title>CARSMAX – Find Your Best Cars</Card.Title>
+                <Card.Text style={{ textAlign: 'justify' }}>
+                  <span className="fw-bold">Project Overview:</span>
+                  <br />
+                  <ul>
+                    <li>A fully functional full-stack web app based on MERN</li>
+                    <li>
+                      In this e-commerce project, users can purchase any car
+                      based on their preferences. After placing the order, the
+                      order status is pending, after approval by admin order
+                      status changed to shipped. If he/she is logged in he/she
+                      can see all his orders on the dashboard page.
+                    </li>
+                    <li>
+                      It has a customized admin panel where the admin can add a
+                      product, delete a product shipped the order, and make an
+                      admin
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <Button
+                  variant="primary"
+                  href="https://github.com/saifbashar/carsmax"
+                  target="_blank"
+                >
+                  <BiLinkExternal /> &nbsp;
+                  <span>View Project</span>
+                </Button>
+              </Card.Footer>
+            </Card>
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
+            <Card className="project-card-view">
+              <Card.Img variant="top" src="" alt="card-img" />
+              <Card.Body>
+                <Card.Title>TRAVELERS – Book Your Place </Card.Title>
+                <Card.Text style={{ textAlign: 'justify' }}>
+                  <span className="fw-bold">Project Overview:</span>
+                  <br />
+                  <ul>
+                    <li>
+                      A fully functional travel booking site using MERN stack.
+                    </li>
+                    <li>
+                      A travel booking site where a user can book his tour plan.
+                      To book a plan, the user must log in.
+                    </li>
+                    <li>
+                      An admin manages all bookings, add new service, and
+                      confirm the order but for the testing purpose, all users
+                      are admin.
+                    </li>
+                  </ul>
+                  <br></br>
+                  <span className="fw-bold">Technologies Used: </span>
+
+                  <span>
+                    React JS, Node JS, Node Express, MongoDB, Firebase, React
+                    Bootstrap, Heroku
+                  </span>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <Button
+                  variant="primary"
+                  href="https://github.com/saifbashar/travelers"
+                  target="_blank"
+                >
+                  <BiLinkExternal /> &nbsp;
+                  <span>View Project</span>
+                </Button>
+              </Card.Footer>
+            </Card>
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
-            />
+            <Card className="project-card-view">
+              <Card.Img variant="top" src="" alt="card-img" />
+              <Card.Body>
+                <Card.Title>Medicare – Check-up Your Health </Card.Title>
+                <Card.Text style={{ textAlign: 'justify' }}>
+                  <span className="fw-bold">Project Overview:</span>
+                  <br />
+                  <ul>
+                    <li>A medical checkup site was created by using react.</li>
+                    <li>
+                      On this website, users can get healthcare-related services
+                      but to get service users must log in.
+                    </li>
+                    <li>
+                      It has a registration and login page, after logging in
+                      users can directly get an online appointment service.
+                    </li>
+                  </ul>
+                  <span className="fw-bold">Technologies Used: </span>
+
+                  <span>React JS, React Router, React Bootstrap, Firebase</span>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <Button
+                  variant="primary"
+                  href="https://github.com/saifbashar/medicare"
+                  target="_blank"
+                >
+                  <BiLinkExternal /> &nbsp;
+                  <span>View Project</span>
+                </Button>
+              </Card.Footer>
+            </Card>
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
+            <Card className="project-card-view">
+              <Card.Img variant="top" src="" alt="card-img" />
+              <Card.Body>
+                <Card.Title>CARSMAX – Find Your Best Cars</Card.Title>
+                <Card.Text style={{ textAlign: 'justify' }}>
+                  <span className="fw-bold">Project Overview:</span>
+                  <br />
+                  <ul>
+                    <li>A fully functional full-stack web app based on MERN</li>
+                    <li>
+                      In this e-commerce project, users can purchase any car
+                      based on their preferences. After placing the order, the
+                      order status is pending, after approval by admin order
+                      status changed to shipped. If he/she is logged in he/she
+                      can see all his orders on the dashboard page.
+                    </li>
+                    <li>
+                      It has a customized admin panel where the admin can add a
+                      product, delete a product shipped the order, and make an
+                      admin
+                    </li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <Button variant="primary" href="" target="_blank">
+                  <BiLinkExternal /> &nbsp;
+                  <span>View Project</span>
+                </Button>
+              </Card.Footer>
+            </Card>
           </Col>
         </Row>
       </Container>
