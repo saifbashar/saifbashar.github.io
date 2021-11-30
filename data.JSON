@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "CARSMAX – Find Your Best Cars",
+    "img1": "https://i.ibb.co/9yr5Rv0/screencapture-carsmax-saifbashar-web-app-2021-11-30-14-27-47.png",
+    "img2": "https://i.ibb.co/y673hpr/carsmax-saifbashar-web-app.jpg",
+    "img3": "https://i.ibb.co/zGmP9wP/screencapture-carsmax-saifbashar-web-app-login-2021-11-30-14-30-11.png",
+    "img4": "",
+    "bullet1": "A fully functional full-stack web app based on MERN",
+    "bullet2": "In this e-commerce project, users can purchase any car based on their preferences. After placing the order, the order status is pending, after approval by admin order status changed to shipped. If he/she is logged in he/she can see all his orders on the dashboard page.",
+    "bullet3": "It has a customized admin panel where the admin can add a product, delete a product shipped the order, and make an admin.",
+    "technology": "React JS, Node JS, Node Express, MongoDB, Firebase, React Bootstrap, Heroku, Aos",
+    "github": "https://github.com/saifbashar/carsmax",
+    "website": "https://carsmax-saifbashar.web.app/",
+    "server": "https://github.com/saifbashar/carsmax-server"
+  },
+  {
+    "id": "2",
+    "name": "TRAVELERS – Book Your Place",
+    "img1": "https://i.ibb.co/qrDYnBX/screencapture-travelers-saifbashar-web-app-2021-11-30-18-37-32.png",
+    "img2": "https://i.ibb.co/gdP1jV3/screencapture-travelers-saifbashar-web-app-services-4-2021-11-30-18-48-22.png",
+    "img3": "https://i.ibb.co/sVNLw41/screencapture-travelers-saifbashar-web-app-my-Orders-2021-11-30-18-50-24.png",
+    "img4": "",
+    "bullet1": "A fully functional travel booking site using MERN stack.",
+    "bullet2": "A travel booking site where a user can book his tour plan. To book a plan, the user must log in.",
+    "bullet3": "An admin manages all bookings, add new service, and confirm the order but for the testing purpose, all users are admin.",
+    "technology": "React JS, Node JS, Node Express, MongoDB, Firebase, React Bootstrap, Heroku",
+    "github": "https://github.com/saifbashar/travelers",
+    "website": "https://travelers-saifbashar.web.app/",
+    "server": "https://github.com/saifbashar/travelers-server"
+  },
+  {
+    "id": "3",
+    "name": "Medicare – Check-up Your Health",
+    "img1": "https://i.ibb.co/d51s9Kf/screencapture-medicare-a3d14-web-app-2021-11-30-18-27-25.png",
+    "img2": "https://i.ibb.co/tMX4ZRj/screencapture-medicare-a3d14-web-app-login-2021-11-30-18-34-55.png",
+    "img3": "https://i.ibb.co/TRwx1tT/screencapture-medicare-a3d14-web-app-details-7-2021-11-30-18-36-42.png",
+    "img4": "",
+    "bullet1": "A medical checkup site was created by using react.",
+    "bullet2": "On this website, users can get healthcare-related services but to get service users must log in.",
+    "bullet3": "It has a registration and login page, after logging in users can directly get an online appointment service.",
+    "technology": "React JS, React Router, React Bootstrap, Firebase",
+    "github": "https://github.com/saifbashar/medicare",
+    "website": "https://medicare-a3d14.web.app/",
+    "server": ""
+  }
+]
